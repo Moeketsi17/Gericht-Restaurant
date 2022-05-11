@@ -17,6 +17,31 @@
     flex-direction: row;
 }
 
+.app__specialMenu_menu_heading {
+    font-family: var(--font-base);
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 58.5px;
+    letter-spacing: 0.04em;
+    color: var(--color-white);
+}
+
+.app_specialMenu-menu_wine, 
+.app_specialMenu-menu_cocktails {
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+.app_specialMenu-menu_img {
+    width: 410px;
+    margin: 0 2rem;
+}
+
+.app_specialMenu-menu_img img {
+    width: 100%;
+}
 
 
 
