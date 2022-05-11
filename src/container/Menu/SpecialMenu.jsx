@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {subHeading, Menuitem} from '../../components'
+import {subHeading, MenuItem} from '../../components'
 import { images, data } from '../../constants';
 
 import './SpecialMenu.css';
@@ -13,25 +13,27 @@ const SpecialMenu = () => (
     </div>
     <div className="app__specialMenu-menu">
 
-      {/* left side */}
+      {/* wines */}
       <div className="app_specialMenu-menu_wine flex__center">
-        <p className='app__specialMenu-menu_heading'>Wine & Beer</p>
+        <p className='app__specialMenu_menu_heading'>Wine & Beer</p>
         <div className="app__specialMenu_menu_items">
           {data.wines.map((wine, index) => (
-            <menuItem key={wine.title + index} title={wine.title} price={wine.price} tags={wine.tags} />
+            <MenuItem key={wine.title + index} title={wine.title} price={wine.price} tags={wine.tags} />
           ))}
         </div>
       </div>
-
+      
+      {/* image */}
       <div className="app__specialMenu-menu_img">
         <img src={images.menu} alt="menu-img" />
       </div>
-      
+
+      {/* cocktails */}
       <div className="app_specialMenu-menu_cocktails flex__center">
-        <p className='app__specialMenu-menu_heading'>Cocktails</p>
+        <p className='app__specialMenu_menu_heading'>Cocktails</p>
         <div className="app__specialMenu_menu_items">
           {data.cocktails.map((cocktail, index) => (
-            <menuItem key={cocktail.title + index} price={cocktail.price} title={cocktail.title} tags={cocktail.tags} />
+            <MenuItem key={cocktail.title + index} price={cocktail.price} title={cocktail.title} tags={cocktail.tags} />
           ))}
         </div>
       </div>
