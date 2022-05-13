@@ -1,0 +1,93 @@
+.app__newsletter {
+    z-index: 10;
+    padding: 2rem 4rem;
+    border: 1px solid var(--color-golden);
+    background-color: var(--color-black);
+}
+
+.app__newsletter-heading {
+    text-align: center;
+}
+
+.app__newsletter-input {
+    flex-direction: row;
+    margin-top: 3rem;
+}
+
+.app__newsletter-input input {
+    width: 600px;
+    border: 1px solid var(--color-golden);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: var(--font-base);
+    color: #fff;
+    margin-right: 1.5rem;
+    padding: 0.5rem 1rem;
+    height: 2.8rem;
+    background-color: var(--color-black);
+}
+
+@media screen and (min-width: 1440px) {
+    .app__newsletter-input input {
+        width: 600px;
+        border: 1px solid var(--color-golden);
+        border-radius: 5px;
+        font-size: 1rem;
+        font-family: var(--font-base);
+        color: #fff;
+        margin-right: 1.5rem;
+        padding: 0.5rem 1rem;
+        background-color: var(--color-black);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .app__newsletter {
+        padding: 2rem;
+        width: 90%;
+    }
+
+    .app__newsletter h1 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .app__newsletter h1 {
+        font-size: 28px;
+    }
+
+    .app__newsletter-input {
+        flex-direction: column;
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .app__newsletter-input input {
+        position: relative;
+        width: 100%;
+        margin: 0 0 1rem;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
