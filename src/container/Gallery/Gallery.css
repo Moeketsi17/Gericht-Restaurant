@@ -3,6 +3,7 @@
     flex-direction: row;
     background-color: var(--color-black);
     padding: 3rem 0 3rem 2rem;
+    overflow: hidden;
 }
 
 .app__gallery-content {
@@ -12,7 +13,7 @@
     align-items: flex-start;
     flex-direction: column;
     min-width: 500px;
-    padding-right: 2rem;
+    padding: 0 5%;
 }
 
 
@@ -140,10 +141,14 @@
 
 @media screen and (max-width: 600px) {
 
+    .app__gallery {
+        padding: 2rem 0;
+    }
+
     .app__gallery-content {
-        width: 100%;
+        max-width: 200px;
         padding-right: 0rem;
-        padding: 0 3rem;
+        padding: 0 5rem;
     }
     
     .app__gallery-images_card {

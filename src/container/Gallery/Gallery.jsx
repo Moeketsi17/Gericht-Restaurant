@@ -25,15 +25,14 @@ const Gallery = () => {
     }
   }
 
-
-
   return (
     <div className='app__gallery flex__center'>
       <div className="app__gallery-content">
         <SubHeading title='Instagram' />
         <h1 className="headtext__cormorant">Photo Gallery</h1>
         <p className="p__opensans" style={{ color: '#aaa', marginTop: '2rem' }} >
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt accusamus mollitia beatae error repellendus eos enim numquam ipsa eveniet dignissimos.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt accusamus
+          mollitia beatae error repellendus eos enim numquam ipsa eveniet dignissimos.
         </p>
         <button type='button' className="custom__button">View More</button>
       </div>
