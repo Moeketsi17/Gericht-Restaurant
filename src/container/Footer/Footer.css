@@ -52,17 +52,18 @@
 
 .app__footer-links_icons {
     margin-top: 0.5rem;
-    background-color: rgb(0, 77, 77);
+    /* background-color: rgb(0, 77, 77);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 150px;
+    width: 150px; */
 }
 
 .app__footer-links_icons svg {
     color: var(--color-white);
     font-size: 35px;
     cursor: pointer;
+    margin: 0 0.5rem;
 }
 
 .app__footer-links_icons svg:hover {
