@@ -10,14 +10,66 @@
     padding-top: 0;
 }
 
-app__footer-links {
-    z-index: 150;
-    position: relative;
+.app__footer-links {
+    z-index: 50;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 4rem;
+    padding: 0 2rem;
 }
 
 .app__footer-links_contact {
-    z-index: 20;
+    z-index: 50;
+
 }
+
+.app__footer-links_contact, 
+.app__footer-links_logo, 
+.app__footer-links_work {
+    flex: 1;
+    margin: 1rem;
+    text-align: center;
+}
+
+.app__footer-links_logo img:first-child {
+    width: 200px;
+    margin-bottom: 0.75rem;
+}
+
+.app__footer-links_work p:nth-child(2n + 1) {
+    margin-bottom: 1rem;
+}
+
+.app__footer-links_icons {
+    margin-top: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
