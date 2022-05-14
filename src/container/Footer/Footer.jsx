@@ -6,7 +6,7 @@ import './Footer.css';
 
 const Footer = () => (
   <div className='app__footer section__padding'>
-    {/* <FooterOverlay /> */}
+    <FooterOverlay />
     <Newsletter/>
 
     <div className="app__footer-links">
@@ -30,7 +30,7 @@ const Footer = () => (
         <h1 className="app__footer-headtext">Working Hours</h1>
         <p className="p__opensans">Monday - Friday</p>
         <p className="p__opensans">09:00am - 09:00pm</p>
-        <br />
+        
         <p className="p__opensans">Saturday - Sunday</p>
         <p className="p__opensans">09:00am - 00:00am</p>
       </div>
