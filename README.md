@@ -2,4 +2,4 @@
 
 ### [Live Site](linkwillhere)
 
-![Restaurant Landing Page](https://i.ibb.co/5jxBKpw/image.png
+![Restaurant Landing Page](/src/assets/landing%20page.png)
